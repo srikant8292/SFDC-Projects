@@ -1,0 +1,25 @@
+<template>
+    <lightning-card variant="Narrow" title="Upcoming Events" icon-name="standard:event">
+
+        <div class="slds-m-around_medium">
+            <c-lwcsearchcomponent searck-label="Event Name" show-label="true" onsearch={searchHandler}></c-lwcsearchcomponent>
+        </div>
+        
+        <div class="slds-m-around_medium">
+            <lightning-datatable
+            key-field="id"
+            data={recordtodisplay}
+            show-row-number-column
+            hide-checkbox-column
+            columns={columnEvent}
+          ></lightning-datatable>
+
+        </div>
+
+        
+
+     
+
+    </lightning-card>
+    
+</template>

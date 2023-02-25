@@ -1,0 +1,71 @@
+.eventTitle{
+    border-radius: 20px;
+    font-size: large;
+    background: greenyellow;
+    font-family: cursive;
+}
+
+.eventRsvp{
+    border-radius: 20px;
+    font-size: large;
+    background: rgb(255, 193, 47);
+    font-family: cursive;
+    margin-top: 20px;
+}
+
+.location{
+    background: antiquewhite;
+    color: black !important;
+    font-size: 15px;
+    margin-top: 15px;
+    border-radius: 20px;
+}
+
+.contactUs{
+    text-align: center;
+    font-size: large;
+    font-family: fantasy;
+}
+.details{
+    background: lightgoldenrodyellow;
+    color: black !important;
+    font-size: 15px;
+    margin-top: 15px;
+    border-radius: 20px;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.eventorg{
+    background: aquamarine;
+    font-family: monospace;
+    border-radius: 20px;
+    --dxp-s-link-text-decoration-hover: azure;
+    align-items: center
+}
+
+.speaker {
+    margin-top: 15px;
+    background: aliceblue;
+    font-family: monospace;
+    font-size: 16px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.titleCalse{
+    font-size: xxx-large;
+    color: blue;
+    font-family: system-ui;
+    margin-bottom: 5px;
+}
+.contact{
+    text-align: center;
+}
